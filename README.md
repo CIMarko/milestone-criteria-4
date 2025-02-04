@@ -1,6 +1,6 @@
 # 🎯 **Milestone project 4 - criteria and guidance** 🎯
 
-[Live link](https://cimarko.github.io/milestone-criteria-3/)
+[Live link](https://cimarko.github.io/milestone-criteria-4/)
 
 Hello everyone! 👋
 
