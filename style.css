@@ -1,0 +1,297 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #44484d;
+    background-color: #e5e5e5;
+}
+
+header {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 2px solid #e5e5e5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    max-width: 60px;
+    height: auto;
+}
+
+
+.title .text {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #44484d;
+    margin: 0;
+}
+
+.search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.search-form {
+    text-align: center;
+}
+
+.form-control {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: 1px solid #44484d;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.batn {
+    color: #f15628;
+    border: 1px solid #f15628;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.batn:hover {
+    color: #ffffff;
+    background-color: #f15628;
+}
+
+@media (max-width: 768px) {
+    .top-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .title .text {
+        font-size: 1.5rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .search {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+    .form-control {
+        flex-grow: 1;
+    }
+
+    .batn {
+        width: 100%;
+        text-align: center;
+    }
+}
+/* General Styles */
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mt {
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #44484d;
+    margin-bottom: 10px;
+}
+
+
+/* Learning Outcome Section */
+.learning-outcome {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #ffffff; /* Solid white background */
+    border-radius: 8px;
+    border-bottom: 2px solid #ddd; /* Light grey bottom border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Center Learning Outcome Title */
+.learning-outcome h2 {
+    font-size: 1.5em; /* Slightly smaller */
+    text-align: center;
+    margin-bottom: 15px;
+    color: #0056b3; 
+    font-weight: 700;   
+}
+.links {
+    color: #23bbbb;
+    font-weight: 500;
+}
+.links:hover {
+    color: #f15628;
+}
+/* Title Styling */
+.title {
+    font-size: 1.2em; 
+    margin-bottom: 15px; 
+    color: #333; 
+    text-align: left; 
+    font-weight: 500; 
+}
+
+/* Criteria Container */
+.criteria-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Criteria Styling */
+.criteria {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Alternating Row Colors */
+.criteria:nth-child(odd) {
+    background-color: #faf6f6; /* Light grey background for odd rows */
+}
+
+.criteria:nth-child(even) {
+    background-color: #ffffff; /* White background for even rows */
+}
+
+/* Criteria Number Styling */
+.criteria-number {
+    font-weight: normal; 
+    font-size: 1.1em; 
+    margin-right: 18px; 
+}
+
+/* Criteria Explanation Styling */
+.criteria-explanation {
+    flex: 1;
+    font-size: 1em;
+    padding: 5px;
+}
+
+/* Criteria Checkbox Styling */
+.criteria-checkbox {
+    margin-left: auto;
+}
+
+.criteria-checkbox input[type="checkbox"] {
+    width: 18px; /* Larger checkbox */
+    height: 18px; /* Larger checkbox */
+}
+
+.crit {
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0.5;
+    color: #c73209;
+}
+.btn.btn-merit {
+    color: #ffffff !important;
+    background-color: #ea5c0a !important; 
+    border: 1px solid #ea5c0a !important; 
+    border-radius: 5px !important; 
+    font-size: 1em !important; 
+    font-weight: 500 !important; 
+    cursor: pointer !important; 
+    transition: background-color 0.3s, border-color 0.3s !important; 
+}
+
+.btn.btn-merit:hover {
+    background-color: #d54017 !important; 
+    border-color: #e8491c !important; 
+}
+
+/* Modal Styling */
+.modal-content {
+    border-radius: 8px; 
+}
+
+.modal-header {
+    border-bottom: 1px solid #ddd; 
+}
+
+.modal-footer {
+    border-top: 1px solid #ddd;
+}
+
+#copy {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0;
+    text-align: center; 
+    font-size: 0.9rem; 
+    border-top: 2px solid #ea5c0a; 
+}
+
+#copy .container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 15px; 
+}
+
+#copy p {
+    margin: 0; 
+    font-weight: 400;
+}
+
+.highlight {
+    background-color: rgb(215, 82, 25); /* Change this to your desired highlight color */
+    color: #000000;
+}
+.criteria-checkbox input[type="checkbox"]:checked + .criteria-explanation {
+    text-decoration: line-through;
+    color: #777; 
+}
+.strike-through {
+    text-decoration: line-through;
+    color: #777;
+}
+.helper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.help {
+    text-decoration: none;
+    letter-spacing: 0.06cm;
+    color: #c73209;
+}
+.help:hover {
+    font-weight: 500;
+    border-bottom: 1px solid #c73209;
+}
+.percentage {
+    font-size: 0.9rem;
+    color: #44484d;
+    font-weight: 300;
+    border-top: 2px #44484d solid;
+  
+}
+.logo {
+    margin-right: 30px;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .criteria {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .criteria input[type="checkbox"] {
+        margin-bottom: 10px;
+    }
+}
